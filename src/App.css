@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0 120px;
+}
+
+.tables {
+  display: flex;
+  justify-content: space-between;
+  width: 90vw;
+}
+
+.left-list,
+.right-list {
+  width: 300px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 5px;
+}
+
+.right-list tr.dragging {
+  background-color: #ccc;
+}
